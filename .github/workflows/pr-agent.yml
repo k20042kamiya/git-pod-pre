@@ -20,7 +20,7 @@ jobs:
     if: ${{ github.event.sender.type != 'Bot' }}
     steps:
       - id: pr-agent
-      - uses: Codium-ai/pr-agent@main
+        uses: Codium-ai/pr-agent@main
         env:
           OPENAI_KEY: ${{ secrets.OPEN_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
