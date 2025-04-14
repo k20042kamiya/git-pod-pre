@@ -26,7 +26,6 @@ jobs:
           OPENAI_KEY: ${{ secrets.OPEN_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_DESCRIPTION.CUSTOM_LABELS: "[]"
-          LITELLM_MODEL: "openai/o1-mini"  # o3-miniから修正
           PUBLISH_LABELS: "false"
           PR_REVIEWER.PERSISTENT_COMMENT: "true"
           PR_CODE_SUGGESTIONS.PERSISTENT_COMMENT: "true"
